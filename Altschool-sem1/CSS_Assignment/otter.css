@@ -39,3 +39,36 @@ body {
     font-size: 1.09rem;
 }
 
+@media only screen and (max-width: 768px) {
+    .card {
+        max-width: 26rem;
+        padding: 30px;
+    }
+    
+    .heading {
+        padding: 12px 20px;
+        right: 20px;
+        left: 20px;
+    }
+    
+    .content {
+        font-size: 1.08rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        max-width: 21rem;
+        padding: 30px;
+    }
+    
+    .heading {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .content {
+        margin-top: 2rem;
+        font-size: 1.05rem;
+    }
+}
