@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+    border : 1px solid white;
+    background: white;
+    max-width: 26rem;
+    padding: 40px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.heading{
+    background-color: #ff1093;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    right: 40px;
+    left: 40px;
+}
+
+.content{
+    margin-top: 2.3rem;
+    line-height: 1.5;
+    font-size: 1.09rem;
+}
+
