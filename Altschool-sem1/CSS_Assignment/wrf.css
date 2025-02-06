@@ -121,6 +121,7 @@ input:focus{
         grid-column: span 2;
     }
     .policy2{
+        display: initial;
         margin: 0 2px;
         text-align: center;
     }
@@ -136,4 +137,5 @@ input:focus{
     .text{
         display: none;
     }
+
 }
